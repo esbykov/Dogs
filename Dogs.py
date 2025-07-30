@@ -19,7 +19,7 @@ def show_image():
             label.image = img
         except requests.RequestException as e:
             mb.showerror("Ошибка", f"Не удалось загрузить изображение: {e}")
-                             
+
 
 
 window = Tk()
